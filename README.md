@@ -11,3 +11,8 @@ The skin cancer detection model is based on a pre-trained convolutional neural n
 The images that we have chosen has a standard size of 224×224. These images are cropped and converted to grayscale for better representation of lesions which in turn aids in better feature extraction when passed into CNN. Further, the thin and think hair present in the image are removed using DullRazor algorithm which performs morphological scaling hence displaying the darker hairy regions of skin. Gaussian filter is applied to the images which removes the noise and later another morphological operation called blackhat filter is used which enhances and extracts dark or small structures from an image. Thus, the resulting outputreceived are clear images free from hair.
 
 Before training the model, the skin lesion images are preprocessed to enhance the model's performance. The preprocessing steps include resizing images to a standard size, data augmentation, normalization, and splitting the data into training and validation sets.
+
+![image](https://github.com/Bhuvananand/Skin-Cancer-Detection/assets/135426406/ad9a6d41-59eb-4446-8b66-480350351cd0)
+## Results
+The performance and results of the skin cancer detection model are presented in the "Results" section of the notebook.
+This includes metrics and visualizations showing how the model performs in classifying benign and malignant skin lesions.
